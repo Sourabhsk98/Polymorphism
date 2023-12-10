@@ -13,10 +13,10 @@ class Car2 extends Vehicle{
         System.out.println("car is running safely");
     }
 
-    public static void main(String args[]){
+    public static void main(String[] args){
         Vehicle v = new Vehicle();
         Car2 obj = new Car2();//creating object
         obj.run();//calling method
-        v.run();;
+        v.run();
     }
 }
